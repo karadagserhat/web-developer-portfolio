@@ -25,9 +25,7 @@ const Project = ({ item }) => {
           <FaGithubSquare className="h-8 w-8   duration-300" />
         </a>
       </div>
-      <h3 className="text-2xl tracking-wide caption-top font-bold ">
-        {item.name}{' '}
-      </h3>
+      <h3 className="font-body font-semibold">{item.name} </h3>
     </div>
   );
 };
