@@ -25,6 +25,7 @@ import Project1 from './assets/img/projects/p1.webp';
 import Project2 from './assets/img/projects/p2.webp';
 import halal from './assets/img/projects/halal.png';
 import eCommerce from './assets/img/projects/eCommerce.png';
+import jobTracking from './assets/img/projects/jobTracking.png';
 import Project3 from './assets/img/projects/p3.webp';
 import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
@@ -83,7 +84,7 @@ export const projectsData = [
     id: '1',
     image: halal,
     name: 'Halal Food Mern App',
-    category: 'MERN',
+    category: 'MERN Stack',
     url: 'https://halal-food-mern.cyclic.app/',
     github: 'https://github.com/karadagserhat/Mern-Halal-Food',
   },
@@ -94,6 +95,14 @@ export const projectsData = [
     category: 'React',
     url: 'https://e-commerce-react-shopping-app.netlify.app/',
     github: 'https://github.com/karadagserhat/e-Commerce-App',
+  },
+  {
+    id: '3',
+    image: jobTracking,
+    name: 'Job Tracking App',
+    category: 'Next',
+    url: 'https://job-tracking-next-js.netlify.app/',
+    github: 'https://github.com/karadagserhat/job-tracking-next.js',
   },
 ];
 
@@ -106,7 +115,10 @@ export const projectsNav = [
     name: 'React',
   },
   {
-    name: 'MERN',
+    name: 'MERN Stack',
+  },
+  {
+    name: 'Next',
   },
 ];
 

@@ -10,7 +10,7 @@ const Project = ({ item }) => {
       <div className="mb-8">
         <a href={item.url} target="_blank">
           <img
-            className="rounded-2xl w-[228px] object-cover object-fill object-center  "
+            className="rounded-2xl w-[158px] object-cover object-center  "
             src={item.image}
             alt=""
           />
