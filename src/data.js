@@ -26,7 +26,7 @@ import Project2 from './assets/img/projects/p2.webp';
 import halal from './assets/img/projects/halal.png';
 import eCommerce from './assets/img/projects/eCommerce.png';
 import jobTracking from './assets/img/projects/jobTracking.png';
-import youtubeIcon from './assets/img/projects/youtube.png';
+import atom from './assets/img/projects/atom.png';
 import Project3 from './assets/img/projects/p3.webp';
 import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
@@ -107,11 +107,11 @@ export const projectsData = [
   },
   {
     id: '4',
-    image: youtubeIcon,
-    name: 'Youtube Clone App',
+    image: atom,
+    name: 'React Mini Projects',
     category: 'React',
-    url: 'https://youtube-clone-react-tailwind.netlify.app',
-    github: 'https://github.com/karadagserhat/youtube-clone-react-tailwind',
+    url: 'https://react-projects-mini.netlify.app',
+    github: 'https://github.com/karadagserhat/react-mini-projects',
   },
 ];
 
