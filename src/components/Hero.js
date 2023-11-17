@@ -12,7 +12,7 @@ const Hero = () => {
           {/* left side */}
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-lg text-accent mb-[22px] ">
-              Hello, I'm <strong>Serhat Karadağ</strong>
+              Hello, I'm <span className="font-semibold">Serhat Karadağ</span>
             </p>
             <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
               Web Developer
@@ -27,7 +27,7 @@ const Hero = () => {
               to="projects"
               smooth
               duration={500}
-              className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all cursor-pointer "
+              className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all cursor-pointer text-base tracking-wide"
             >
               My Projects
             </Link>

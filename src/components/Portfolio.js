@@ -6,7 +6,7 @@ const Portfolio = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
           <h2 className="section-title">My projects</h2>
-          <p className="mb-6">Check out my projects</p>
+          <p className="mb-6 text-base">Check out my projects</p>
         </div>
         <Projects />
       </div>

@@ -19,7 +19,7 @@ const Project = ({ item }) => {
           <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
             <span className="">
               <a href={item.url} target="_blank" rel="noopener noreferrer">
-                <button className="text-center rounded-lg text-[2.6rem] text-accent hover:text-accent/90 ">
+                <button className="text-center rounded-lg text-[2.5rem] text-accent hover:text-accent/90 ">
                   <TbWorldWww />
                 </button>
               </a>
@@ -45,7 +45,7 @@ const Project = ({ item }) => {
             </span>
           </div>
         </div>
-        <div className="mt-2 text-white">
+        <div className="mt-2 text-white text-base">
           <a href={item.url} target="_blank" rel="noopener noreferrer">
             {item.name}
           </a>

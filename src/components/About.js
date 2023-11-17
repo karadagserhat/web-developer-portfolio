@@ -13,7 +13,11 @@ const About = () => {
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
-              <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
+              <h2
+                className="text-3xl lg:font-extrabold mb-3
+              leading-[34px] md:text-4xl md:leading-tight lg:text-5xl lg:leading-[1.2]  font-medium
+              "
+              >
                 Serhat Karadağ
               </h2>
               <p className="mb-4 text-accent">Web Developer</p>

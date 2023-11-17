@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 const Nav = () => {
   return (
     <nav>
-      <ul className="flex space-x-8 capitalize text-[15px]">
+      <ul className="flex space-x-8 capitalize text-[15px] text-base">
         {navigation.map((item, index) => {
           return (
             <li

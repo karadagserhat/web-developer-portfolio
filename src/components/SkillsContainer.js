@@ -14,7 +14,7 @@ const Experience = () => {
       id: 1,
       src: html,
       title: 'HTML',
-      style: 'shadow-orange-500',
+      style: '#FCAF79',
     },
     {
       id: 2,
@@ -73,7 +73,9 @@ const Experience = () => {
       <div className=" container mx-auto p-4 flex flex-col justify-center  text-white">
         <div>
           <p className="section-title">Skills</p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6 text-base text-[#B2B6BD]">
+            These are the technologies I've worked with
+          </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 ">
