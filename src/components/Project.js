@@ -3,30 +3,56 @@ import { TbWorldWww } from 'react-icons/tb';
 
 const Project = ({ item }) => {
   return (
-    <div
-      key={item.id}
-      className="flex  flex-col justify-end items-center text-center"
-    >
-      <div className="mb-8">
-        <a href={item.url} target="_blank">
+    <div className="flex flex-col justify-center text-center items-center mt-5">
+      <a href={item.url} target="_blank" rel="noopener noreferrer">
+        {/* image */}
+        <div className="group relative overflow-hidden  rounded-xl  w-[21rem] h-[16rem] ">
+          {/* overlay */}
+          <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+          {/* img */}
           <img
-            className="rounded-2xl w-[158px] object-cover object-center  "
+            className="group-hover:scale-125 transition-all duration-500 w-[21rem] h-[16rem] object-cover"
             src={item.image}
             alt=""
           />
-        </a>
-      </div>
-      <p className="capitalize text-accent text-sm mb-3">{item.category} </p>
-      <div className="flex gap-x-4 mb-3">
-        <a href={item.url} target="_blank">
-          <TbWorldWww className="h-8 w-8   duration-300" />
-        </a>
-        <a href={item.github} target="_blank">
-          <FaGithubSquare className="h-8 w-8   duration-300" />
-        </a>
-      </div>
-      <h3 className="font-body font-semibold">{item.name} </h3>
+          {/* pretitle */}
+          <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+            <span className="">
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                <button className="text-center rounded-lg text-[2.6rem] text-accent hover:text-accent/90 ">
+                  <TbWorldWww />
+                </button>
+              </a>
+            </span>
+          </div>
+          {/* pretitle */}
+          <div className="absolute -bottom-full left-28 group-hover:bottom-24 transition-all duration-500 z-50">
+            <span className="">
+              <a href={item.github} target="_blank" rel="noopener noreferrer">
+                <button className="text-center rounded-lg text-[2.5rem] text-accent  hover:text-accent/90 ">
+                  <FaGithubSquare />
+                </button>
+              </a>
+            </span>
+          </div>
+
+          {/* title */}
+          <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+            <span className="text-2xl text-accent font-bold  hover:text-accent/90">
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                {item.category}
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="mt-2 text-white">
+          <a href={item.url} target="_blank" rel="noopener noreferrer">
+            {item.name}
+          </a>
+        </div>
+      </a>
     </div>
   );
 };
+
 export default Project;

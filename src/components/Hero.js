@@ -19,9 +19,9 @@ const Hero = () => {
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
               I am looking for a new job in the software industry with
-              experience in <strong> JavaScript, React and Node.js</strong>,
-              looking for opportunities to develop dynamic and secure
-              applications
+              experience in{' '}
+              <strong> JavaScript, React, Next.js and Node.js</strong> looking
+              for opportunities to develop dynamic and secure applications
             </p>
             <Link
               to="projects"

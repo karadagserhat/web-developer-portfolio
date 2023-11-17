@@ -1,15 +1,12 @@
-import html from '../assets/html.png';
-import css from '../assets/css.png';
-import javascript from '../assets/javascript.png';
-import reactImage from '../assets/react.png';
-import nextjs from '../assets/nextjs.png';
-import graphql from '../assets/graphql.png';
-import github from '../assets/github.png';
-import tailwind from '../assets/tailwind.png';
-import mongo from '../assets/mongo.png';
-import nodejs from '../assets/node-js.png';
-import redux from '../assets/redux-toolkit.png';
-import typescript from '../assets/typescript.png';
+import html from '../assets/img/skills/html.png';
+import css from '../assets/img/skills/css.png';
+import javascript from '../assets/img/skills/javascript.png';
+import reactImage from '../assets/img/skills/react.png';
+import nextjs from '../assets/img/skills/nextjs.png';
+import mongo from '../assets/img/skills/mongo.png';
+import nodejs from '../assets/img/skills/node-js.png';
+import redux from '../assets/img/skills/redux-toolkit.png';
+import typescript from '../assets/img/skills/typescript.png';
 
 const Experience = () => {
   const techs = [
