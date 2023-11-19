@@ -14,7 +14,7 @@ const Experience = () => {
       id: 1,
       src: html,
       title: 'HTML',
-      style: '#FCAF79',
+      style: 'shadow-orange-600',
     },
     {
       id: 2,

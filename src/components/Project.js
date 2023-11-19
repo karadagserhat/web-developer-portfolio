@@ -19,7 +19,7 @@ const Project = ({ item }) => {
           <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
             <span className="">
               <a href={item.url} target="_blank" rel="noopener noreferrer">
-                <button className="text-center rounded-lg text-[2.5rem] text-accent hover:text-accent/90 ">
+                <button className="text-center rounded-lg text-[2.5rem] text-accent hover:text-accent/80 transition-all duration-300">
                   <TbWorldWww />
                 </button>
               </a>
@@ -29,7 +29,7 @@ const Project = ({ item }) => {
           <div className="absolute -bottom-full left-28 group-hover:bottom-24 transition-all duration-500 z-50">
             <span className="">
               <a href={item.github} target="_blank" rel="noopener noreferrer">
-                <button className="text-center rounded-lg text-[2.5rem] text-accent  hover:text-accent/90 ">
+                <button className="text-center rounded-lg text-[2.5rem] text-accent  hover:text-accent/80 transition-all duration-300 ">
                   <FaGithubSquare />
                 </button>
               </a>
@@ -37,8 +37,8 @@ const Project = ({ item }) => {
           </div>
 
           {/* title */}
-          <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-            <span className="text-2xl text-accent font-bold  hover:text-accent/90">
+          <div className="absolute -bottom-full left-[50px] group-hover:bottom-14 transition-all duration-700 z-50">
+            <span className="text-2xl text-accent font-bold  hover:text-accent/80 transition-all duration-300">
               <a href={item.url} target="_blank" rel="noopener noreferrer">
                 {item.category}
               </a>
