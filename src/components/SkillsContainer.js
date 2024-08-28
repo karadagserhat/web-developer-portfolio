@@ -1,70 +1,70 @@
-import html from '../assets/img/skills/html.png';
-import css from '../assets/img/skills/css.png';
+import csharp from '../assets/img/skills/csharp.png';
+import dotnet from '../assets/img/skills/MicrosoftNET.png';
 import javascript from '../assets/img/skills/javascript.png';
 import reactImage from '../assets/img/skills/react.png';
 import nextjs from '../assets/img/skills/nextjs.png';
 import mongo from '../assets/img/skills/mongo.png';
 import nodejs from '../assets/img/skills/node-js.png';
-import redux from '../assets/img/skills/redux-toolkit.png';
+import angular from '../assets/img/skills/angular.png';
 import typescript from '../assets/img/skills/typescript.png';
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: 'HTML',
-      style: 'shadow-orange-600',
+      src: angular,
+      title: 'Angular',
+      style: 'shadow-purple-600',
     },
     {
       id: 2,
-      src: css,
-      title: 'CSS',
-      style: 'shadow-blue-600',
-    },
-    {
-      id: 3,
-      src: javascript,
-      title: 'JavaScript',
-      style: 'shadow-yellow-500',
-    },
-    {
-      id: 4,
       src: reactImage,
       title: 'React',
       style: 'shadow-blue-500',
     },
     {
-      id: 5,
+      id: 3,
+      src: dotnet,
+      title: 'NET Framework',
+      style: 'shadow-purple-900',
+    },
+    {
+      id: 4,
       src: nodejs,
       title: 'Node.js',
       style: 'shadow-green-800',
     },
     {
-      id: 6,
-      src: redux,
-      title: 'Redux Toolkit',
-      style: 'shadow-purple-600',
+      id: 5,
+      src: csharp,
+      title: 'C#',
+      style: 'shadow-purple-400',
     },
     {
-      id: 7,
+      id: 6,
       src: mongo,
       title: 'MongoDB',
       style: 'shadow-green-700',
     },
 
     {
-      id: 8,
+      id: 7,
       src: nextjs,
       title: 'Next.js',
       style: 'shadow-white',
     },
 
     {
-      id: 9,
+      id: 8,
       src: typescript,
       title: 'TypeScript',
       style: 'shadow-blue-700',
+    },
+    {
+      id: 9,
+      src: javascript,
+      title: 'JavaScript',
+      style: 'shadow-yellow-500',
     },
   ];
 

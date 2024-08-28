@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-24">
           <img
-            className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
+            className="object-cover w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
             src={Image}
             alt=""
           />
@@ -23,12 +23,16 @@ const About = () => {
               <p className="mb-4 text-accent">Web Developer</p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-                3+ years of experienced in the aviation industry, dealt with
-                passengers through problem solving, teamwork and time
-                management. Looking for a new job at software industry, with
-                experience in JavaScript, React, Node.js and MongoDB seeking
-                opportunities to apply my knowledge and collaborate with others
-                to develop dynamic and secure applications
+                I am an enthusiastic Full-Stack Developer combining 3 years of
+                experience in the aviation industry with a passion for software
+                development. With 5 months of professional experience in
+                front-end development and a desire for continuous
+                self-improvement, I aim to bring a holistic approach to what I
+                develop; therefore, my goal is to create user-friendly,
+                automated and solid solutions that meet customer demands. I
+                apply the problem-solving skills and time management I gained in
+                the aviation industry to the software world and adapt to any
+                challenging environment quickly and effectively.
               </p>
             </div>
             {/* <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">

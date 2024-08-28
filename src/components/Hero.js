@@ -14,14 +14,13 @@ const Hero = () => {
             <p className="text-lg text-accent mb-[22px] ">
               Hello, I'm <span className="font-semibold">Serhat Karadağ</span>
             </p>
-            <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
-              Web Developer
+            <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-6xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
+              Full-Stack Developer
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              I am looking for a new job in the software industry with
-              experience in{' '}
-              <strong> JavaScript, React, Next.js and Node.js</strong> looking
-              for opportunities to develop dynamic and secure applications
+              I aim to bring a holistic approach to what I develop; therefore,
+              my goal is to create <strong> user-friendly, automated</strong>{' '}
+              and <strong>solid solutions</strong> that meet customer demands.
             </p>
             <Link
               to="projects"

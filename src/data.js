@@ -7,7 +7,7 @@ import eCommerce from './assets/img/projects/eCommerce.png';
 import blog from './assets/img/projects/blog.png';
 import prodRating from './assets/img/projects/prodRating.png';
 import mini from './assets/img/projects/mini.png';
-import jobTracking from './assets/img/projects/jobTracking.png';
+import angularUI from './assets/img/projects/angular-ecommerce-ui.png';
 
 // navigation
 export const navigation = [
@@ -48,7 +48,7 @@ export const projectsData = [
     image: halal,
     name: 'Halal Food Mern App',
     category: 'MERN Stack',
-    url: 'https://halal-food-mern.cyclic.app/',
+    url: 'https://mern-stack-halal-food.onrender.com/',
     github: 'https://github.com/karadagserhat/Mern-Halal-Food',
   },
   {
@@ -85,11 +85,11 @@ export const projectsData = [
   },
   {
     id: '6',
-    image: jobTracking,
-    name: 'Job Tracking App',
-    category: 'Next',
-    url: 'https://job-tracking-next-js.netlify.app/',
-    github: 'https://github.com/karadagserhat/job-tracking-next.js',
+    image: angularUI,
+    name: 'E-Commerce UI',
+    category: 'Angular',
+    url: 'https://angular-e-commerce-ui.vercel.app/',
+    github: 'https://github.com/karadagserhat/Angular-eCommerce',
   },
 ];
 
@@ -97,6 +97,9 @@ export const projectsData = [
 export const projectsNav = [
   {
     name: 'all',
+  },
+  {
+    name: 'Angular',
   },
   {
     name: 'React',
