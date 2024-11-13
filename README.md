@@ -1,1 +1,1 @@
-https://serhat-karadag-portfolio.netlify.app/
+https://serhat-karadag-portfolio.vercel.app/
